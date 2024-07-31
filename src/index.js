@@ -1,6 +1,6 @@
 module.exports = function reverse (n) {
   const arr = [...n.toString()];
-  const [minus, ...number] = arr;
+  const [minus] = arr;
   if (minus === '-') {
     arr.shift();
   }
